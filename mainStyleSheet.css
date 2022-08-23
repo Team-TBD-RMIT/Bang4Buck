@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-family: "brevia", sans-serif;
+}
+
+.wallpaper{
+    background: url('Images/wallpaper/wallpaper.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #6ED2AE;
+    padding: 30px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #6ED2AE;
+    box-shadow: 1px 1px 10px 1px gray;
+    font-weight: bold;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #f2f2f2;
+    color: #fc762b;
+}
+
+.navbar a.active {
+    background-color: #f2f2f2;
+    color: #fc762b;
+}
+
+.content {
+    padding: 16px;
+    height: 70vh;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.nav-container{
+    display: table;
+    margin: auto;
+}
+
+.btnLogin{
+    float: right;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    font-family: "brevia", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background: #fc762b;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: "brevia", sans-serif;
+    width: 50%;
+    border-radius: 10pt 10pt 10pt 10pt;
+    border: none;
+    outline: none;
+}
+
+.main-card{
+    display: block;
+    margin: auto;
+    background: #fc762b;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    top: 30%;
+}
+
+.card-container{
+    display: inline-block;
+    width: 100%;
+}
+
+#catchphrase{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 40px;
+    color: #f2f2f2;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title {
+    margin: 0;
+    font-size: 70px;
+    display: inline-block;
+    text-align: center;
+    color: #fc762b;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+}
+
+.logo{
+    display: inline-block;
+    width: 80px;
+    margin-top:0;
+    margin-left: 100px;
+}
+
+.headerIcon{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+
+#headerIcon{
+    width: 120px;
+    height: 120px;
+}

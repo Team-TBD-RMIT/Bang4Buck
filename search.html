@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en" id="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="productStyleSheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/knq5ytw.css">
+    <link rel="stylesheet" href="mainStyleSheet.css">
+    <title>Product Search</title>
+</head>
+
+<body>
+<div class="header">
+    <input class="btnLogin" type="button" onclick="location.href = 'login.html';" value="Sign In">
+    <h2 class="header-title">
+        B4B
+    </h2>
+    <label>
+        <input class="header-input" type="text" placeholder=" Search...">
+    </label>
+</div>
+
+<div class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="javascript:void(0)" onclick="location.href = 'index.html'">Home</a>
+        <a class="active" href="javascript:void(0)" onclick="location.href = 'search.html'">Products</a>
+        <a href="javascript:void(0)" onclick="return confirm('Currently under development')">Customize</a>
+        <a href="javascript:void(0)" onclick="return confirm('Currently under development')">My List</a>
+        <a href="javascript:void(0)" onclick="return confirm('Currently under development')">Forum</a>
+    </div>
+    <div class="filter-selection">
+        <p class="filter-title">Sort By</p>
+        <form class="filter-form" action="" id="frmFilter">
+            <label for="price">
+            <select class="select" name="price" id="price">
+                <option value="" selected disabled hidden>Price</option>
+                <option value="">High-Low</option>
+                <option value="">Low-High</option>
+            </select>
+            </label>
+            <label for="brand">
+            <select class="select" name="brand" id="brand">
+                <option value="" selected disabled hidden>Brand</option>
+                <option value="">Brand 1</option>
+                <option value="">Brand 2</option>
+                <option value="">Brand 3</option>
+                <option value="">Brand 4</option>
+            </select>
+            </label>
+            <label for="category">
+            <select class="select" name="category" id="category">
+                <option value="" selected disabled hidden>Category</option>
+                <option value="">Phones</option>
+                <option value="">Laptops</option>
+                <option value="">Home Appliances</option>
+                <option value="">Watches</option>
+            </select>
+            </label>
+            <input id="filter-submit" type="submit" value="apply">
+        </form>
+        <label hidden id="navInput">
+            <input style="    margin-top: 20px;
+                              margin-right: 20px;"
+                   class="nav-input" type="text" placeholder=" Search...">
+        </label>
+    </div>
+</div>
+
+<div class="content">
+    <div class="content-container">
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/samsung-s21-fe.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/curved-lcd-monitor.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100px;" height="120px"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/apple-iphone-13-pro-max.jpg"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/dell-inspiron.jpg"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/samsung-glaxy-tab-a8.jpg"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/lenovo-ideapad-slim.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/motorola-g62.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/hp-athlon-laptop.jpg"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/ipad-air-select-cell-purple.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100px;" height="120px"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/dell-monitor.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/samsung-galaxy-s22.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/ipad-pro.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/imac-allin1.png"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <div class="search-product" onclick="location.href = 'product.html'">
+            <img class="product-photo" src="Images/search/GAME-AW3423DW-2.jpg"
+                 onerror="this.onerror=null;this.src='Images/logo/logoOrange.png';"
+                 alt="" width="100" height="120"
+            >
+        </div>
+        <span class="stretch"></span>
+    </div>
+</div>
+
+<script>
+    window.onscroll = function () {
+        stickyNav()
+    };
+
+    const navbar = document.getElementById("navbar");
+    const sticky = navbar.offsetTop;
+    const navInput = document.getElementById("navInput");
+
+    function stickyNav() {
+        if (window.scrollY >= sticky) {
+            navbar.classList.add("sticky")
+            navInput.hidden = false;
+        } else {
+            navbar.classList.remove("sticky");
+            navInput.hidden = true;
+        }
+    }
+
+    function imageError(img) {
+        img.onerror = null
+
+        img.src = 'Images/logo/logoOrange.png'
+    }
+
+</script>
+</body>
+</html>
