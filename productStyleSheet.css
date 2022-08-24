@@ -73,7 +73,7 @@
     height: 100%;
     display: inline-block;
     float: left;
-    box-shadow: 1pt 1pt 10pt 1pt #fc762b;
+    box-shadow: 1pt 1pt 10pt 1pt gray;
 }
 
 #product-store{
@@ -82,7 +82,7 @@
     height: 50%;
     display: inline-block;
     float: right;
-    box-shadow: 1pt 1pt 10pt 1pt #fc762b;
+    box-shadow: 1pt 1pt 10pt 1pt grey;
     margin: auto;
     text-align: center;
 }
@@ -108,7 +108,7 @@
 #similar-product{
     background: #f2f2f2;
     width: 100%;
-    height: 45%;
+    height: 50%;
     display: inline-block;
     float: right;
     margin-top: 20px;
@@ -189,11 +189,12 @@
 .similar-product{
     background: #f1f1f1;
     width: 150px;
-    height: 200px;
+    height: 150px;
     display: inline-block;
     text-align: center;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 0;
+    box-shadow: 0 0 15px #cccccc;
 }
 
 .container-card{
